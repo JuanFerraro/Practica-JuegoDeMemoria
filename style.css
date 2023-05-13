@@ -5,7 +5,7 @@
 }
 
 h1{
-    color: blanchedalmond;
+    color:  rgb(151, 107, 253);
 }
 
 body{
@@ -19,7 +19,7 @@ body{
 
 section{
     display: grid;
-    grid-template-columns: repeat(4, 8rem);
+    grid-template-columns: repeat(4, 11rem);
     grid-template-rows: repeat(4, 8rem);
     grid-gap: 2rem;
     perspective: 800px;
@@ -40,10 +40,14 @@ section{
 }
 
 .back{
-    background-color: white;
+    background-color: rgb(151, 107, 253);
     backface-visibility: hidden;
 }
 
 .toggleCard{
     transform: rotateY(180deg);
+}
+
+.face{
+    transform: rotateY(-180deg);
 }
